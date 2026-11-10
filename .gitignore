@@ -1,0 +1,22 @@
+# ─── Android / Gradle ───
+build/
+.gradle/
+local.properties
+*.apk
+*.aab
+*.dex
+.cxx/
+
+# Heavy build artifacts (APK snapshots) are not tracked — build them from source.
+builds/*.apk
+
+# ─── Model weights (added in later milestones; download separately) ───
+*.onnx
+*.tflite
+*.pt
+
+# ─── IDE / OS ───
+.idea/
+.DS_Store
+*.iml
+captures/
